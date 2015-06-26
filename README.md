@@ -1,4 +1,4 @@
-#Email Finder
+#OkCuGit
 This is a simple ruby application that takes an input of a github repository and outputs all unique email addresses associated with the repo. It does this by cloning the repository, parsing through git logs to find email addresses and names, finding unique name/email combinations, sorting them, and outputting them to the temrinal. After this, it will delete the temporary folder it made to clone the repo so as not to clutter up your computer.
 
 To use this application, simply run okcugit from your terminal with the argument of the repo you are trying to find the emails of.
