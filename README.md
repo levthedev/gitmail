@@ -6,6 +6,7 @@ To use this application, simply run gitmail from your terminal with the argument
 ###Example
 Run this command from your terminal -
 `ruby gitmail.rb kravinskylev/gitmail`.
+If you want to use a non Github repo, pass the base URL of the host you would like to use (`ruby gitmail.rb some_user/some_repo https://bitbucket.org/`)
 It doesn't matter what directory you're in when you run this command.
 That's basically all there is to it!
 
