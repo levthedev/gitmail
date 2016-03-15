@@ -5,7 +5,7 @@ To use this application, simply run gitmail from your terminal with the argument
 
 ###Example
 Run this command from your terminal -
-ruby gitmail.rb kravinskylev/gitmail
+`ruby gitmail.rb kravinskylev/gitmail`.
 It doesn't matter what directory you're in when you run this command.
 That's basically all there is to it!
 
