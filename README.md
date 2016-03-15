@@ -21,5 +21,3 @@ If no email addresses are returned, this means that the github user set his emai
 If the email address it returns is a bunk email, then this user either outsmarted or outstupided you. They outsmarted you if they want to associate a public email with their github commits in order to make their daily commits look impressive while still remaining un-contactable, and they outstupided you if they set their email to something not associated with their profile.
 
 **That's all there is to it!**
-
-* 
