@@ -5,7 +5,7 @@ class Finder
     Dir.mktmpdir("GitMail") do |dir|
       `git clone --bare #{ARGV[1] || "https://github.com/"}#{repo_name}.git #{dir}`
       Dir.chdir("#{dir}") do
-        @emails = `git log --pretty=format:'%an %ae'`
+        @emails = `git log --pretty=format:'%an %ae%n%cn %ce'`
       end
     end
   end
