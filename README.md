@@ -1,16 +1,16 @@
-#GitMail
+# GitMail
 This is a simple ruby application that takes an input of a github repository and outputs all unique email addresses associated with the repo. It does this by cloning the repository, parsing through git logs to find email addresses and names, finding unique name/email combinations, sorting them, and outputting them to the terminal. After this, it will delete the temporary folder it made to clone the repo so as not to clutter up your computer.
 
 To use this application, simply run gitmail from your terminal with the argument of the repo you are trying to find the emails of.
 
-###Example
+### Example
 Run this command from your terminal -
 `ruby gitmail.rb kravinskylev/gitmail`.
 If you want to use a non Github repo, pass the base URL of the host you would like to use (`ruby gitmail.rb some_user/some_repo https://bitbucket.org/`)
 It doesn't matter what directory you're in when you run this command.
 That's basically all there is to it!
 
-###Known Issues
+### Known Issues
 * *no email addresses are returned*
 * *email address is unused*
 
